@@ -10,7 +10,7 @@ import torch
 from transformers import LlamaTokenizer, AutoModelForCausalLM
 from importlib.metadata import version
 
-from lib.farshadprune import prune_cim, prune_wanda, prune_magnitude, prune_sparsegpt, prune_ablate, check_sparsity, find_layers
+from lib.prune import prune_cim, prune_wanda, prune_magnitude, prune_sparsegpt, prune_ablate, check_sparsity, find_layers
 # from lib.prune import prune_cim_magnitude, prune_cim, prune_cim_hessian, prune_wanda, prune_magnitude, prune_sparsegpt, prune_ablate, check_sparsity, find_layers
 # from lib.prune_cim import 
 # from lib.prune_cimh import prune_cim2
